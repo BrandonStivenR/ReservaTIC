@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - ReservaTIC</title>
+</head>
+<body>
+    <h1>Registro de usuario</h1>
+    <form action="registro" method="post">
+        <p>Nombre completo: <input type="text" name="nombreCompleto" required></p>
+        <p>Documento de identidad: <input type="text" name="documentoIdentidad" required></p>
+        <p>Correo institucional: <input type="email" name="correoInstitucional" required></p>
+        <p>Contraseña: <input type="password" name="contrasena" required></p>
+        <p>Rol:
+            <select name="rol">
+                <option value="Estudiante">Estudiante</option>
+                <option value="Docente">Docente</option>
+            </select>
+        </p>
+        <p><button type="submit">Registrar</button></p>
+    </form>
+    <a href="index.html">Volver al inicio</a>
+</body>
+</html>
